@@ -26,7 +26,6 @@ function NewHabitField() {
           required
         />
       </label>
-      {/* <button> Create Task</button> */}
     </form>
   );
 }
