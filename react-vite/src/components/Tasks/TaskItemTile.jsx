@@ -1,7 +1,5 @@
-// import OpenModalMenuItem from "../Navigation/OpenModalMenuItem";
 import OpenModalTaskItem from './OpenModalTaskItem';
 import EditTaskModal from '../EditTaskModal/EditTaskModal';
-// import { editUserAvatar } from "../../redux/avatars";
 import './TaskItemTile.css';
 import TaskItemCheckoff from './TaskItemCheckoff';
 
