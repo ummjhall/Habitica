@@ -13,6 +13,7 @@ function NewRewardField() {
       return dispatch(createNewReward(newReward)).then(setTitle(''));
     }
   };
+  
   return (
     <form onSubmit={handleNewReward}>
       <input
