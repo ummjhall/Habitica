@@ -23,7 +23,6 @@ function NewRewardField() {
         onChange={(e) => setTitle(e.target.value)}
         required
       />
-
       {/* <button type="submit">Create Reward</button> */}
     </form>
   );
