@@ -8,7 +8,6 @@ function NewRewardField() {
 
   const handleNewReward = async (e) => {
     e.preventDefault();
-
     const newReward = { title, cost: 10 };
     if (title) {
       return dispatch(createNewReward(newReward)).then(setTitle(''));
